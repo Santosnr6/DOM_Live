@@ -45,6 +45,7 @@ function printTextContentToConsole(event) {
     console.log(event.target.textContent);
 }
 
+//Samma skit, olika sätt
 pNodeRef.addEventListener('mouseleave', function(event) {
     console.log(event.target.textContent);
     event.target.classList.toggle('t-red');
